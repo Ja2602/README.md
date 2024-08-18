@@ -1,3 +1,43 @@
-<h1>sistema de proyecto</h1>
+<h1>INSCRIPTADOR DETEXTO</h1>
 
--estado de proyecto en construcion-
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge I:Encriptador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sup"></div>
+  <h1 class="titulo">ENCRIPTADOR DE TEXTO </h1> 
+  <br>
+  <br>
+
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto" class="lab">Solo letras minúsculas, sin acento</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <input class="btn" type="button" value="Encriptar!" id="btn-encriptar">
+        <input class="btn" type="button" value="Desencriptar!" id="btn-desencriptar">
+      </form>
+    </section>
+
+    <section class="msg box">
+      <label for="input-texto" class="lab">Mensaje Encriptado</label>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn" type="button" value="Copiar" id="btn-copy">
+    </section>
+  </main>
+
+  <footer>   
+    <p class="pie">Designed by Jaider Jimenez @2022</p>
+
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
